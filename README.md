@@ -2,7 +2,6 @@
 
 ## Description
 
-
 ## Table of Contents
 
 - [Installation](#installation)
@@ -17,20 +16,15 @@
 
 ## Usage
 
-
 ## Video Demonstration
 
-
 ## Tests
-
-
 
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributors
-
 
 ## Contact
 
