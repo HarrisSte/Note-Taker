@@ -8,6 +8,12 @@ const PORT = process.env.PORT || 3001;
 
 //Middleware
 app.use(express.static('public'));
+app.use(express.urlencoded({ extend: true }));
+app.use(express.json());
+
+//Routes
+require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
 
 //Listening for port
 app.listen(PORT, () =>
