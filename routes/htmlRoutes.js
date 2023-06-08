@@ -1,4 +1,5 @@
 //Dependencies
+const app = express();
 
 //GET notes.html
 app.get('/', (req, res) => {
