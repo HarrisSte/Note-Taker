@@ -1,12 +1,13 @@
-//Dependencies
-const app = express();
+const path = require('path');
 
-//GET notes.html
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, './public/assets/notes.html'));
-});
+module.exports = function (app) {
+  //GET notes.html
+  app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, '..', 'public', 'notes.html'));
+  });
 
-//GET index.html
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, './public/assets/index.html'));
-});
+  //GET index.html
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
+  });
+};
