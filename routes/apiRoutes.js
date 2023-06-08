@@ -1,5 +1,4 @@
 //Dependencies
-
 const path = require('path');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
@@ -17,7 +16,6 @@ module.exports = function (app) {
             .status(500)
             .json({ error: 'Failed to read data from the database.' });
         }
-
         return res.json(data);
       }
     );
@@ -104,11 +102,9 @@ module.exports = function (app) {
           (err) => {
             if (err) {
               console.error(err);
-              return res
-                .status(500)
-                .json({
-                  error: 'Failed to delete the note from the database.',
-                });
+              return res.status(500).json({
+                error: 'Failed to delete the note from the database.',
+              });
             }
 
             // Respond with a success message
