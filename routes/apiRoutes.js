@@ -35,16 +35,17 @@ module.exports = function (app) {
             .json({ error: 'Failed to read data from the database.' });
         }
 
-        // Parse the JSON data into an array
+        // Parse the JSON data coming from db into an array
         const notes = JSON.parse(data);
 
         // Create a new note object with a unique ID
         const newNote = {
           id: uuidv4(),
           title: req.body.title,
-          content: req.body.content,
+          text: req.body.text,
         };
-
+        console.log('incoming request body',req.body)
+        console.log('incoming data:', data)
         // Add the new note to the array
         notes.push(newNote);
 

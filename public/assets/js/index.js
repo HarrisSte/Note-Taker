@@ -116,15 +116,29 @@ const handleRenderSaveBtn = () => {
   }
 };
 
-// Render the list of note titles
+
 const renderNoteList = async (notes) => {
   let jsonNotes = await notes.json();
-  console.log(typeof(jsonNotes));
+  jsonNotes = JSON.parse(jsonNotes);
+  console.log(typeof (jsonNotes));
+  console.log(jsonNotes)
+
   if (window.location.pathname === '/notes') {
     noteList.forEach((el) => (el.innerHTML = ''));
   }
 
-  let noteListItems = [];
+
+let noteListItems = [];
+
+// Render the list of note titles
+// const renderNoteList = async (notes) => {
+//   let jsonNotes = await notes.json();
+//   console.log(typeof(jsonNotes));
+//   if (window.location.pathname === '/notes') {
+//     noteList.forEach((el) => (el.innerHTML = ''));
+//   }
+
+//   let noteListItems = [];
 
   // Returns HTML element with or without a delete button
   const createLi = (text, delBtn = true) => {
