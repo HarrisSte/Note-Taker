@@ -22,7 +22,8 @@ Experience the simplicity and efficiency of Note Taker today. Start taking notes
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Demonstration](#demonstration)
+- [Video Demonstration](#videodemonstration)
+- [Screenshots](#screenshots)
 - [License](#license)
 - [Contributors](#contributors)
 - [Contact](#contact)
