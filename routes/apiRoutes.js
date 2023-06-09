@@ -44,8 +44,7 @@ module.exports = function (app) {
           title: req.body.title,
           text: req.body.text,
         };
-        console.log('incoming request body',req.body)
-        console.log('incoming data:', data)
+
         // Add the new note to the array
         notes.push(newNote);
 
