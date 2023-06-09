@@ -48,6 +48,11 @@ Experience the simplicity and efficiency of Note Taker today. Start taking notes
   This will end the server when you are finished.
 
 ## Video Demonstration
+[Note-Taker Demo](https://github.com/HarrisSte/Note-Taker/assets/126029841/bcf06e00-f9c5-4e66-a28a-0df61d4ab19e)
+
+## Screenshots
+![note-taker1](https://github.com/HarrisSte/Note-Taker/assets/126029841/f6f5c39d-e2b3-4aba-9599-2cf93c838fcd)
+![note-taker2](https://github.com/HarrisSte/Note-Taker/assets/126029841/4e24185e-255c-4d4c-9669-7185c7b87c24)
 
 
 ## License
