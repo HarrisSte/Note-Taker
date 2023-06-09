@@ -22,7 +22,7 @@ Experience the simplicity and efficiency of Note Taker today. Start taking notes
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Video Demonstration](#videodemonstration)
+- [Demonstration](#demonstration)
 - [Screenshots](#screenshots)
 - [License](#license)
 - [Contributors](#contributors)
@@ -48,7 +48,7 @@ Experience the simplicity and efficiency of Note Taker today. Start taking notes
 - `ctrl + c`
   This will end the server when you are finished.
 
-## Video Demonstration
+## Demonstration
 [Note-Taker Demo](https://github.com/HarrisSte/Note-Taker/assets/126029841/bcf06e00-f9c5-4e66-a28a-0df61d4ab19e)
 
 ## Screenshots
